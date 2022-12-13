@@ -256,13 +256,15 @@ namespace Orignalproject {
 			// 
 			this->tab1b2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab1b2->AutoSize = true;
+			this->tab1b2->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab1b2->BackColor = System::Drawing::Color::Firebrick;
 			this->tab1b2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab1b2->ForeColor = System::Drawing::Color::White;
-			this->tab1b2->Location = System::Drawing::Point(983, 3);
+			this->tab1b2->Location = System::Drawing::Point(999, 3);
 			this->tab1b2->Name = L"tab1b2";
-			this->tab1b2->Size = System::Drawing::Size(92, 27);
+			this->tab1b2->Size = System::Drawing::Size(76, 30);
 			this->tab1b2->TabIndex = 5;
 			this->tab1b2->Text = L"Browse";
 			this->tab1b2->UseVisualStyleBackColor = false;
@@ -282,8 +284,11 @@ namespace Orignalproject {
 			// 
 			this->tab1rt2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab1rt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab1rt2->Location = System::Drawing::Point(562, 32);
 			this->tab1rt2->Name = L"tab1rt2";
+			this->tab1rt2->ReadOnly = true;
 			this->tab1rt2->Size = System::Drawing::Size(513, 648);
 			this->tab1rt2->TabIndex = 3;
 			this->tab1rt2->Text = L"";
@@ -293,10 +298,11 @@ namespace Orignalproject {
 			this->tab1rt1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
-			this->tab1rt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->tab1rt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab1rt1->Location = System::Drawing::Point(7, 34);
 			this->tab1rt1->Name = L"tab1rt1";
+			this->tab1rt1->ReadOnly = true;
 			this->tab1rt1->Size = System::Drawing::Size(549, 646);
 			this->tab1rt1->TabIndex = 2;
 			this->tab1rt1->Text = L"";
@@ -305,13 +311,15 @@ namespace Orignalproject {
 			// 
 			this->tab1b1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab1b1->AutoSize = true;
+			this->tab1b1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab1b1->BackColor = System::Drawing::Color::Firebrick;
 			this->tab1b1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab1b1->ForeColor = System::Drawing::Color::White;
-			this->tab1b1->Location = System::Drawing::Point(464, 4);
+			this->tab1b1->Location = System::Drawing::Point(480, 4);
 			this->tab1b1->Name = L"tab1b1";
-			this->tab1b1->Size = System::Drawing::Size(92, 27);
+			this->tab1b1->Size = System::Drawing::Size(76, 30);
 			this->tab1b1->TabIndex = 1;
 			this->tab1b1->Text = L"Browse";
 			this->tab1b1->UseVisualStyleBackColor = false;
@@ -345,24 +353,30 @@ namespace Orignalproject {
 			this->tabPage2->Size = System::Drawing::Size(1082, 720);
 			this->tabPage2->TabIndex = 1;
 			this->tabPage2->Text = L"tabPage2";
+			this->tabPage2->Click += gcnew System::EventHandler(this, &MyForm1::tabPage2_Click);
 			// 
 			// tab2rt2
 			// 
+			this->tab2rt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab2rt2->Location = System::Drawing::Point(538, 44);
 			this->tab2rt2->Name = L"tab2rt2";
+			this->tab2rt2->ReadOnly = true;
 			this->tab2rt2->Size = System::Drawing::Size(530, 640);
 			this->tab2rt2->TabIndex = 16;
 			this->tab2rt2->Text = L"";
 			// 
 			// tab2b2
 			// 
+			this->tab2b2->AutoSize = true;
+			this->tab2b2->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab2b2->BackColor = System::Drawing::Color::Firebrick;
 			this->tab2b2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab2b2->ForeColor = System::Drawing::Color::White;
 			this->tab2b2->Location = System::Drawing::Point(970, 6);
 			this->tab2b2->Name = L"tab2b2";
-			this->tab2b2->Size = System::Drawing::Size(98, 32);
+			this->tab2b2->Size = System::Drawing::Size(76, 30);
 			this->tab2b2->TabIndex = 15;
 			this->tab2b2->Text = L"Browse";
 			this->tab2b2->UseVisualStyleBackColor = false;
@@ -378,16 +392,19 @@ namespace Orignalproject {
 			// 
 			// tab2b1
 			// 
+			this->tab2b1->AutoSize = true;
+			this->tab2b1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab2b1->BackColor = System::Drawing::Color::Firebrick;
 			this->tab2b1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab2b1->ForeColor = System::Drawing::Color::White;
 			this->tab2b1->Location = System::Drawing::Point(434, 6);
 			this->tab2b1->Name = L"tab2b1";
-			this->tab2b1->Size = System::Drawing::Size(98, 32);
+			this->tab2b1->Size = System::Drawing::Size(76, 30);
 			this->tab2b1->TabIndex = 13;
 			this->tab2b1->Text = L"Browse";
 			this->tab2b1->UseVisualStyleBackColor = false;
+			this->tab2b1->Click += gcnew System::EventHandler(this, &MyForm1::tab2b1_Click);
 			// 
 			// tab2t1
 			// 
@@ -399,8 +416,12 @@ namespace Orignalproject {
 			// 
 			// tab2rt1
 			// 
+			this->tab2rt1->BackColor = System::Drawing::Color::White;
+			this->tab2rt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab2rt1->Location = System::Drawing::Point(3, 44);
 			this->tab2rt1->Name = L"tab2rt1";
+			this->tab2rt1->ReadOnly = true;
 			this->tab2rt1->Size = System::Drawing::Size(529, 640);
 			this->tab2rt1->TabIndex = 11;
 			this->tab2rt1->Text = L"";
@@ -449,33 +470,39 @@ namespace Orignalproject {
 			this->tabPage3->Size = System::Drawing::Size(1082, 720);
 			this->tabPage3->TabIndex = 2;
 			this->tabPage3->Text = L"tabPage3";
+			this->tabPage3->Click += gcnew System::EventHandler(this, &MyForm1::tabPage3_Click);
 			// 
 			// tab3b1
 			// 
 			this->tab3b1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab3b1->AutoSize = true;
+			this->tab3b1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab3b1->BackColor = System::Drawing::Color::Firebrick;
 			this->tab3b1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab3b1->ForeColor = System::Drawing::Color::White;
-			this->tab3b1->Location = System::Drawing::Point(468, 4);
+			this->tab3b1->Location = System::Drawing::Point(476, 4);
 			this->tab3b1->Name = L"tab3b1";
-			this->tab3b1->Size = System::Drawing::Size(84, 27);
+			this->tab3b1->Size = System::Drawing::Size(76, 30);
 			this->tab3b1->TabIndex = 2;
 			this->tab3b1->Text = L"Browse";
 			this->tab3b1->UseVisualStyleBackColor = false;
+			this->tab3b1->Click += gcnew System::EventHandler(this, &MyForm1::tab3b1_Click);
 			// 
 			// tab3b2
 			// 
 			this->tab3b2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab3b2->AutoSize = true;
+			this->tab3b2->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab3b2->BackColor = System::Drawing::Color::Firebrick;
 			this->tab3b2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab3b2->ForeColor = System::Drawing::Color::White;
-			this->tab3b2->Location = System::Drawing::Point(979, 4);
+			this->tab3b2->Location = System::Drawing::Point(995, 4);
 			this->tab3b2->Name = L"tab3b2";
-			this->tab3b2->Size = System::Drawing::Size(92, 27);
+			this->tab3b2->Size = System::Drawing::Size(76, 30);
 			this->tab3b2->TabIndex = 3;
 			this->tab3b2->Text = L"Browse";
 			this->tab3b2->UseVisualStyleBackColor = false;
@@ -507,8 +534,11 @@ namespace Orignalproject {
 			// 
 			this->tab3rt2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab3rt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab3rt2->Location = System::Drawing::Point(558, 35);
 			this->tab3rt2->Name = L"tab3rt2";
+			this->tab3rt2->ReadOnly = true;
 			this->tab3rt2->Size = System::Drawing::Size(513, 648);
 			this->tab3rt2->TabIndex = 4;
 			this->tab3rt2->Text = L"";
@@ -518,8 +548,11 @@ namespace Orignalproject {
 			this->tab3rt1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab3rt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab3rt1->Location = System::Drawing::Point(3, 35);
 			this->tab3rt1->Name = L"tab3rt1";
+			this->tab3rt1->ReadOnly = true;
 			this->tab3rt1->Size = System::Drawing::Size(549, 646);
 			this->tab3rt1->TabIndex = 3;
 			this->tab3rt1->Text = L"";
@@ -567,6 +600,7 @@ namespace Orignalproject {
 			this->tabPage4->Size = System::Drawing::Size(1082, 720);
 			this->tabPage4->TabIndex = 3;
 			this->tabPage4->Text = L"tabPage4";
+			this->tabPage4->Click += gcnew System::EventHandler(this, &MyForm1::tabPage4_Click);
 			// 
 			// tab4perNon
 			// 
@@ -599,8 +633,11 @@ namespace Orignalproject {
 			this->tab4rt2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab4rt2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab4rt2->Location = System::Drawing::Point(534, 34);
 			this->tab4rt2->Name = L"tab4rt2";
+			this->tab4rt2->ReadOnly = true;
 			this->tab4rt2->Size = System::Drawing::Size(542, 646);
 			this->tab4rt2->TabIndex = 5;
 			this->tab4rt2->Text = L"";
@@ -610,8 +647,11 @@ namespace Orignalproject {
 			this->tab4rt1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab4rt1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->tab4rt1->Location = System::Drawing::Point(6, 34);
 			this->tab4rt1->Name = L"tab4rt1";
+			this->tab4rt1->ReadOnly = true;
 			this->tab4rt1->Size = System::Drawing::Size(522, 646);
 			this->tab4rt1->TabIndex = 4;
 			this->tab4rt1->Text = L"";
@@ -620,28 +660,33 @@ namespace Orignalproject {
 			// 
 			this->tab4b1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab4b1->AutoSize = true;
+			this->tab4b1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab4b1->BackColor = System::Drawing::Color::Firebrick;
 			this->tab4b1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab4b1->ForeColor = System::Drawing::Color::White;
-			this->tab4b1->Location = System::Drawing::Point(436, 3);
+			this->tab4b1->Location = System::Drawing::Point(436, 1);
 			this->tab4b1->Name = L"tab4b1";
-			this->tab4b1->Size = System::Drawing::Size(92, 27);
+			this->tab4b1->Size = System::Drawing::Size(76, 30);
 			this->tab4b1->TabIndex = 2;
 			this->tab4b1->Text = L"Browse";
 			this->tab4b1->UseVisualStyleBackColor = false;
+			this->tab4b1->Click += gcnew System::EventHandler(this, &MyForm1::tab4b1_Click);
 			// 
 			// tab4b2
 			// 
 			this->tab4b2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
 				| System::Windows::Forms::AnchorStyles::Right));
+			this->tab4b2->AutoSize = true;
+			this->tab4b2->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->tab4b2->BackColor = System::Drawing::Color::Firebrick;
 			this->tab4b2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tab4b2->ForeColor = System::Drawing::Color::White;
-			this->tab4b2->Location = System::Drawing::Point(984, 6);
+			this->tab4b2->Location = System::Drawing::Point(984, 3);
 			this->tab4b2->Name = L"tab4b2";
-			this->tab4b2->Size = System::Drawing::Size(92, 27);
+			this->tab4b2->Size = System::Drawing::Size(76, 30);
 			this->tab4b2->TabIndex = 3;
 			this->tab4b2->Text = L"Browse";
 			this->tab4b2->UseVisualStyleBackColor = false;
@@ -711,13 +756,13 @@ namespace Orignalproject {
 		}
 #pragma endregion
 
-		private: void convertBackslash(std::string& a) {
-			for (int i = 0; i < a.size(); i++) {
-				if (a[i] == '\\') {
-					a[i] = '/';
-				}
+	private: void convertBackslash(std::string& a) {
+		for (int i = 0; i < a.size(); i++) {
+			if (a[i] == '\\') {
+				a[i] = '/';
 			}
 		}
+	}
 
 	private: System::Void tab1b1_Click(System::Object^ sender, System::EventArgs^ e) {
 		openFileDialog1->Filter = "cpp File|*.cpp";
@@ -728,11 +773,10 @@ namespace Orignalproject {
 		if (tab1text1 != "openFileDialog1") {
 			tab1t1->Text = openFileDialog1->FileName;
 			tab2t1->Text = openFileDialog1->FileName;
-			tab2t1->Text = openFileDialog1->FileName;
-			tab2t1->Text = openFileDialog1->FileName;
+			tab3t1->Text = openFileDialog1->FileName;
+			tab4t1->Text = openFileDialog1->FileName;
 		}
 	}
-
 	private: System::Void tab1b2_Click(System::Object^ sender, System::EventArgs^ e) {
 		openFileDialog2->Filter = "cpp File|*.cpp";
 		openFileDialog2->InitialDirectory = "Documents";
@@ -773,6 +817,7 @@ namespace Orignalproject {
 			tab4t2->Text = openFileDialog5->FileName;
 		}
 	}
+	
 	private: System::Void tabPage1_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (tab1t1->Text != "" && tab1t2->Text != "" && tab1t1->Text != "openFileDialodg1" && tab1t2->Text != "openFileDialog2") {
 			CLL File2Obj;
@@ -785,21 +830,355 @@ namespace Orignalproject {
 			ClassGlobalObject.ReadFromFile(tab1Text1);
 			ClassGlobalObject.compare(File2Obj);
 			tab1per->Text = gcnew String(std::to_string(ClassGlobalObject.PercentageOfSimilarity()).c_str());
-			tab1rt1->Text = "";
+			int index = 0;
+
 			CLL::node* temp = ClassGlobalObject.head;
+			std::string s = "";
+			while (temp != ClassGlobalObject.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab1rt1->Text = gcnew String(s.c_str());
+			String^ tem = tab1rt1->Text;
+			tab1rt1->Text = "";
+			tab1rt1->Text = tem;
+
+			temp = ClassGlobalObject.head;
 			while (temp != ClassGlobalObject.tail) {
 				if (temp->isMatched) {
-					for (int i = 0; temp->statement[i] != '\0'; i++) {
-						if (i >= temp->index) {
-							tab1rt1->SelectionBackColor = Color::LightBlue;
-							tab1rt1->Text = gcnew String(temp->statement.c_str());
-						}
+					tem = gcnew String(temp->statement.c_str());
+					tab1rt1->Find(tem, index, tab1rt1->TextLength, RichTextBoxFinds::None);
+					tab1rt1->SelectionColor = Color::Navy;
+					index = tab1rt1->Text->IndexOf(tem, index) + 1;
+				}
 
-					}
-					
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab1rt1->Find(tem, index, tab1rt1->TextLength, RichTextBoxFinds::None);
+				tab1rt1->SelectionColor = Color::Navy;
+				index = tab1rt1->Text->IndexOf(tem, index) + 1;
+			}
+
+			index = 0;
+			temp = File2Obj.head;
+			s = "";
+			while (temp != File2Obj.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab1rt2->Text = gcnew String(s.c_str());
+			tem = tab1rt2->Text;
+			tab1rt2->Text = "";
+			tab1rt2->Text = tem;
+
+			temp = File2Obj.head;
+			while (temp != File2Obj.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab1rt2->Find(tem, index, tab1rt2->TextLength, RichTextBoxFinds::None);
+					tab1rt2->SelectionColor = Color::Navy;
+					index = tab1rt2->Text->IndexOf(tem, index) + 1;
 				}
 				temp = temp->next;
 			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab1rt2->Find(tem, index, tab1rt2->TextLength, RichTextBoxFinds::None);
+				tab1rt2->SelectionColor = Color::Navy;
+				index = tab1rt2->Text->IndexOf(tem, index) + 1;
+			}
+		}
+	}
+	private: System::Void tabPage2_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (tab2t1->Text != "" && tab2t2->Text != "" && tab2t1->Text != "openFileDialodg1" && tab2t2->Text != "openFileDialog2") {
+			CLL File2Obj;
+			CLL ClassGlobalObject;
+			std::string tab2Text1 = msclr::interop::marshal_as<std::string>(tab2t1->Text);
+			std::string tab2Text2 = msclr::interop::marshal_as<std::string>(tab2t2->Text);
+			this->convertBackslash(tab2Text1);
+			this->convertBackslash(tab2Text2);
+			File2Obj.ReadFromFile(tab2Text2);
+			ClassGlobalObject.ReadFromFile(tab2Text1);
+			ClassGlobalObject.compare(File2Obj);
+			tab2per->Text = gcnew String(std::to_string(ClassGlobalObject.PercentageOfSimilarity()).c_str());
+			int index = 0;
+
+			CLL::node* temp = ClassGlobalObject.head;
+			std::string s = "";
+			while (temp != ClassGlobalObject.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab2rt1->Text = gcnew String(s.c_str());
+			String^ tem = tab2rt1->Text;
+			tab2rt1->Text = "";
+			tab2rt1->Text = tem;
+
+			temp = ClassGlobalObject.head;
+			while (temp != ClassGlobalObject.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab2rt1->Find(tem, index, tab2rt1->TextLength, RichTextBoxFinds::None);
+					tab2rt1->SelectionColor = Color::Navy;
+					index = tab2rt1->Text->IndexOf(tem, index) + 1;
+				}
+
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab2rt1->Find(tem, index, tab2rt1->TextLength, RichTextBoxFinds::None);
+				tab2rt1->SelectionColor = Color::Navy;
+				index = tab2rt1->Text->IndexOf(tem, index) + 1;
+			}
+
+			index = 0;
+			temp = File2Obj.head;
+			s = "";
+			while (temp != File2Obj.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab2rt2->Text = gcnew String(s.c_str());
+			tem = tab2rt2->Text;
+			tab2rt2->Text = "";
+			tab2rt2->Text = tem;
+
+			temp = File2Obj.head;
+			while (temp != File2Obj.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab2rt2->Find(tem, index, tab2rt2->TextLength, RichTextBoxFinds::None);
+					tab2rt2->SelectionColor = Color::Navy;
+					index = tab2rt2->Text->IndexOf(tem, index) + 1;
+				}
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab2rt2->Find(tem, index, tab2rt2->TextLength, RichTextBoxFinds::None);
+				tab2rt2->SelectionColor = Color::Navy;
+				index = tab2rt2->Text->IndexOf(tem, index) + 1;
+			}
+
+		}
+	}
+	private: System::Void tabPage3_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (tab3t1->Text != "" && tab3t2->Text != "" && tab3t1->Text != "openFileDialodg1" && tab3t2->Text != "openFileDialog2") {
+			CLL File2Obj;
+			CLL ClassGlobalObject;
+			std::string tab3Text1 = msclr::interop::marshal_as<std::string>(tab3t1->Text);
+			std::string tab3Text2 = msclr::interop::marshal_as<std::string>(tab3t2->Text);
+			this->convertBackslash(tab3Text1);
+			this->convertBackslash(tab3Text2);
+			File2Obj.ReadFromFile(tab3Text2);
+			ClassGlobalObject.ReadFromFile(tab3Text1);
+			ClassGlobalObject.compare(File2Obj);
+			tab3per->Text = gcnew String(std::to_string(ClassGlobalObject.PercentageOfSimilarity()).c_str());
+			int index = 0;
+
+			CLL::node* temp = ClassGlobalObject.head;
+			std::string s = "";
+			while (temp != ClassGlobalObject.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab3rt1->Text = gcnew String(s.c_str());
+			String^ tem = tab3rt1->Text;
+			tab3rt1->Text = "";
+			tab3rt1->Text = tem;
+
+			temp = ClassGlobalObject.head;
+			while (temp != ClassGlobalObject.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab3rt1->Find(tem, index, tab3rt1->TextLength, RichTextBoxFinds::None);
+					tab3rt1->SelectionColor = Color::Navy;
+					index = tab3rt1->Text->IndexOf(tem, index) + 1;
+				}
+
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab3rt1->Find(tem, index, tab3rt1->TextLength, RichTextBoxFinds::None);
+				tab3rt1->SelectionColor = Color::Navy;
+				index = tab3rt1->Text->IndexOf(tem, index) + 1;
+			}
+			index = 0;
+			temp = File2Obj.head;
+			s = "";
+			while (temp != File2Obj.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab3rt2->Text = gcnew String(s.c_str());
+			tem = tab3rt2->Text;
+			tab3rt2->Text = "";
+			tab3rt2->Text = tem;
+
+			temp = File2Obj.head;
+			while (temp != File2Obj.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab3rt2->Find(tem, index, tab3rt2->TextLength, RichTextBoxFinds::None);
+					tab3rt2->SelectionColor = Color::Navy;
+					index = tab3rt2->Text->IndexOf(tem, index) + 1;
+				}
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab3rt2->Find(tem, index, tab3rt2->TextLength, RichTextBoxFinds::None);
+				tab3rt2->SelectionColor = Color::Navy;
+				index = tab3rt2->Text->IndexOf(tem, index) + 1;
+			}
+		}
+	}
+	private: System::Void tabPage4_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (tab4t1->Text != "" && tab4t2->Text != "" && tab4t1->Text != "openFileDialodg1" && tab4t2->Text != "openFileDialog2") {
+			CLL File2Obj;
+			CLL ClassGlobalObject;
+			std::string tab4Text1 = msclr::interop::marshal_as<std::string>(tab4t1->Text);
+			std::string tab4Text2 = msclr::interop::marshal_as<std::string>(tab4t2->Text);
+			this->convertBackslash(tab4Text1);
+			this->convertBackslash(tab4Text2);
+			File2Obj.ReadFromFile(tab4Text2);
+			ClassGlobalObject.ReadFromFile(tab4Text1);
+			ClassGlobalObject.compare(File2Obj);
+			tab4per->Text = gcnew String(std::to_string(ClassGlobalObject.PercentageOfSimilarity()).c_str());
+			int index = 0;
+
+			CLL::node* temp = ClassGlobalObject.head;
+			std::string s = "";
+			while (temp != ClassGlobalObject.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab4rt1->Text = gcnew String(s.c_str());
+			String^ tem = tab1rt1->Text;
+			tab4rt1->Text = "";
+			tab4rt1->Text = tem;
+
+			temp = ClassGlobalObject.head;
+			while (temp != ClassGlobalObject.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab4rt1->Find(tem, index, tab4rt1->TextLength, RichTextBoxFinds::None);
+					tab4rt1->SelectionColor = Color::Navy;
+					index = tab4rt1->Text->IndexOf(tem, index) + 1;
+				}
+
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab4rt1->Find(tem, index, tab4rt1->TextLength, RichTextBoxFinds::None);
+				tab4rt1->SelectionColor = Color::Navy;
+				index = tab4rt1->Text->IndexOf(tem, index) + 1;
+			}
+			index = 0;
+			temp = File2Obj.head;
+			s = "";
+			while (temp != File2Obj.tail) {
+				s += temp->statement;
+				s += "\n";
+				temp = temp->next;
+			}
+			s += temp->statement;
+			s += "\0";
+
+			tab4rt2->Text = gcnew String(s.c_str());
+			tem = tab4rt2->Text;
+			tab4rt2->Text = "";
+			tab4rt2->Text = tem;
+
+			temp = File2Obj.head;
+			while (temp != File2Obj.tail) {
+				if (temp->isMatched) {
+					tem = gcnew String(temp->statement.c_str());
+					tab4rt2->Find(tem, index, tab4rt2->TextLength, RichTextBoxFinds::None);
+					tab4rt2->SelectionColor = Color::Navy;
+					index = tab4rt2->Text->IndexOf(tem, index) + 1;
+				}
+				temp = temp->next;
+			}
+			if (temp->isMatched) {
+				tem = gcnew String(temp->statement.c_str());
+				tab4rt2->Find(tem, index, tab4rt2->TextLength, RichTextBoxFinds::None);
+				tab4rt2->SelectionColor = Color::Navy;
+				index = tab4rt2->Text->IndexOf(tem, index) + 1;
+			}
+		}
+	}
+
+	private: System::Void tab4b1_Click(System::Object^ sender, System::EventArgs^ e) {
+		openFileDialog5->Filter = "cpp File|*.cpp";
+		openFileDialog5->InitialDirectory = "Documents";
+		openFileDialog5->Title = "Open cpp File";
+		openFileDialog5->ShowDialog();
+		string tab4text1 = msclr::interop::marshal_as<std::string>(openFileDialog5->FileName);
+		if (tab4text1 != "openFileDialog1") {
+			tab1t1->Text = openFileDialog5->FileName;
+			tab2t1->Text = openFileDialog5->FileName;
+			tab3t1->Text = openFileDialog5->FileName;
+			tab4t1->Text = openFileDialog5->FileName;
+		}
+	}
+	private: System::Void tab3b1_Click(System::Object^ sender, System::EventArgs^ e) {
+		openFileDialog4->Filter = "cpp File|*.cpp";
+		openFileDialog4->InitialDirectory = "Documents";
+		openFileDialog4->Title = "Open cpp File";
+		openFileDialog4->ShowDialog();
+		string tab3text1 = msclr::interop::marshal_as<std::string>(openFileDialog4->FileName);
+		if (tab3text1 != "openFileDialog1") {
+			tab1t1->Text = openFileDialog4->FileName;
+			tab2t1->Text = openFileDialog4->FileName;
+			tab3t1->Text = openFileDialog4->FileName;
+			tab4t1->Text = openFileDialog4->FileName;
+		}
+	}
+	private: System::Void tab2b1_Click(System::Object^ sender, System::EventArgs^ e) {
+		openFileDialog3->Filter = "cpp File|*.cpp";
+		openFileDialog3->InitialDirectory = "Documents";
+		openFileDialog3->Title = "Open cpp File";
+		openFileDialog3->ShowDialog();
+		string tab3text1 = msclr::interop::marshal_as<std::string>(openFileDialog3->FileName);
+		if (tab3text1 != "openFileDialog1") {
+			tab1t1->Text = openFileDialog3->FileName;
+			tab2t1->Text = openFileDialog3->FileName;
+			tab3t1->Text = openFileDialog3->FileName;
+			tab4t1->Text = openFileDialog3->FileName;
 		}
 	}
 };
